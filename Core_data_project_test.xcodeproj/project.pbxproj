@@ -46,6 +46,7 @@
 				EECF2E6E24E2B32800A6E660 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		EECF2E6E24E2B32800A6E660 /* Products */ = {
 			isa = PBXGroup;
