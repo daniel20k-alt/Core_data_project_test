@@ -1,5 +1,5 @@
 //
-//  Person+CoreDataClass.swift
+//  Family+CoreDataClass.swift
 //  Core_data_project_test
 //
 //  Created by DDDD on 14/08/2020.
@@ -10,7 +10,7 @@
 import Foundation
 import CoreData
 
-@objc(Person)
-public class Person: NSManagedObject {
+@objc(Family)
+public class Family: NSManagedObject {
 
 }

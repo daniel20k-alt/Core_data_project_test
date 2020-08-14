@@ -14,8 +14,10 @@
 		EECF2E7B24E2B32800A6E660 /* Core_data_project_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EECF2E7924E2B32800A6E660 /* Core_data_project_test.xcdatamodeld */; };
 		EECF2E7D24E2B33000A6E660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECF2E7C24E2B33000A6E660 /* Assets.xcassets */; };
 		EECF2E8024E2B33000A6E660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECF2E7E24E2B33000A6E660 /* LaunchScreen.storyboard */; };
-		EECF2E8924E3061F00A6E660 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF2E8724E3061E00A6E660 /* Person+CoreDataClass.swift */; };
-		EECF2E8A24E3061F00A6E660 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF2E8824E3061E00A6E660 /* Person+CoreDataProperties.swift */; };
+		EECF2E9024E656E600A6E660 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF2E8C24E656E600A6E660 /* Person+CoreDataClass.swift */; };
+		EECF2E9124E656E600A6E660 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF2E8D24E656E600A6E660 /* Person+CoreDataProperties.swift */; };
+		EECF2E9224E656E600A6E660 /* Family+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF2E8E24E656E600A6E660 /* Family+CoreDataClass.swift */; };
+		EECF2E9324E656E600A6E660 /* Family+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECF2E8F24E656E600A6E660 /* Family+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +30,10 @@
 		EECF2E7C24E2B33000A6E660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EECF2E7F24E2B33000A6E660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EECF2E8124E2B33000A6E660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EECF2E8724E3061E00A6E660 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
-		EECF2E8824E3061E00A6E660 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EECF2E8C24E656E600A6E660 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EECF2E8D24E656E600A6E660 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EECF2E8E24E656E600A6E660 /* Family+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EECF2E8F24E656E600A6E660 /* Family+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +83,10 @@
 		EECF2E8B24E3064600A6E660 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EECF2E8724E3061E00A6E660 /* Person+CoreDataClass.swift */,
-				EECF2E8824E3061E00A6E660 /* Person+CoreDataProperties.swift */,
+				EECF2E8C24E656E600A6E660 /* Person+CoreDataClass.swift */,
+				EECF2E8D24E656E600A6E660 /* Person+CoreDataProperties.swift */,
+				EECF2E8E24E656E600A6E660 /* Family+CoreDataClass.swift */,
+				EECF2E8F24E656E600A6E660 /* Family+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,10 +164,12 @@
 			files = (
 				EECF2E7524E2B32800A6E660 /* ViewController.swift in Sources */,
 				EECF2E7124E2B32800A6E660 /* AppDelegate.swift in Sources */,
-				EECF2E8A24E3061F00A6E660 /* Person+CoreDataProperties.swift in Sources */,
-				EECF2E8924E3061F00A6E660 /* Person+CoreDataClass.swift in Sources */,
+				EECF2E9224E656E600A6E660 /* Family+CoreDataClass.swift in Sources */,
+				EECF2E9124E656E600A6E660 /* Person+CoreDataProperties.swift in Sources */,
+				EECF2E9024E656E600A6E660 /* Person+CoreDataClass.swift in Sources */,
 				EECF2E7B24E2B32800A6E660 /* Core_data_project_test.xcdatamodeld in Sources */,
 				EECF2E7324E2B32800A6E660 /* SceneDelegate.swift in Sources */,
+				EECF2E9324E656E600A6E660 /* Family+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
